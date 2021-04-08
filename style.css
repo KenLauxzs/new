@@ -1,0 +1,93 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style-type: none;
+  width: 100%;
+  position: fixed;
+  line-height: 45px;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 173, 244);
+}
+ ul li{
+  text-align: center;
+  width: 66px;
+  font-size: 1em;
+
+}
+    ul li a{
+      color: white;
+      text-decoration: none;
+      font-family: arial;
+    }
+    ul{
+     list-style-type: none;
+      display: inline-flex;
+    }
+    ul li a:active{
+      text-decoration: underline;
+    }
+     #Wc{
+      background-color: transparent;
+      text-align: center;
+      padding: 300px 0 300px 0;
+      font-family: cursive;
+      color: black;
+      width: 40%;
+      margin: auto;
+      border-bottom: 3px solid black;
+     }
+     #Project{
+      background-color: transparent;
+      padding: 240px 0 240px 0;
+      text-align: center;
+      color: black;
+       width: 40%;
+      margin: auto;
+      border-bottom: 3px solid black;
+     }
+     #Project h1{
+      font-family: cursive;
+     }
+     .visitor{
+      background-color: transparent;
+      padding: 240px 0 240px 0;
+      margin: auto;
+      text-align: center;
+      width: 40%;
+      margin: auto;
+      border-bottom: 3px solid black;
+     }
+#About{
+  background-color: transparent;
+  text-align: center;
+  color: black;
+  padding: 180px 0 180px 0;
+  width: 40%;
+  margin: auto;
+  border-bottom: 3px solid black;
+}
+#About img{
+  border-radius: 50%;
+}
+#About h1{
+  font-family: cursive;
+}
+#About p{
+  color: black;
+}
+.send{
+  background-color: transparent;
+  margin: auto;
+  width: 320px;
+}
+.footer{
+  background-color: transparent;
+  padding: 200px 0 200px 0;
+}
