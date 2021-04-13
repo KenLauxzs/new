@@ -164,8 +164,8 @@ text-align: left;
 #About .info #text{
   width: 100%;
   background-color: rgba(0, 173, 244);
-  border-bottom-right-radius: 20%;
-  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
 }
 .about .info p{
   color: black;
