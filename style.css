@@ -46,7 +46,7 @@ ul{
      .projectName{
       justify-content: center;
       padding: 5px 5px 10px 5px;
-      width: 320px;
+      width: 315px;
       margin: auto;
       box-shadow: 0 45px 50px rgba(0,0,0,.8); 
       background-color: rgb(220,220,220);
@@ -70,7 +70,7 @@ ul{
       font-family: cursive;
      }
      #Project .login { 
-  width: 300px;
+  width: 295px;
 padding: 1.6em; 
 margin: auto;
 box-sizing: border-box; 
