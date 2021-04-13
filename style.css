@@ -186,9 +186,9 @@ text-align: left;
 .send{
   background-color: rgb(220,220,220);
   box-shadow: 0 45px 50px rgba(0,0,0,.8); 
-  width: 290px;
+  width: 310px;
   margin: auto;
-  padding: 20px 20px 40px 10px;
+  padding: 20px 5px 40px 5px;
   border-radius: 10%;
 }
 .footer{
