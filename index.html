@@ -15,6 +15,7 @@
         <li><a href="#Contact">Contact</a></li>
         <li><a href="#" id="night">Night</a></li>
       </ul>
+
 <div id="Wc">
   <h2>Hey, I'm Ken</h2>
 </div>
@@ -30,11 +31,11 @@
  <input type="text" name="name" maxlength="20" required> 
 <label>Password</label>
 <input type="password" name="password" maxlength="6" required>
-<span>Remember me: <input type="checkbox"></span><br><br>
+<label style="color: white;">Remember me:</label><input type="checkbox"><br>
 <input type="submit" value="Login">
   </form>
 </div>
-<h5><a href="#">Go to link</a></h5>
+<h5><a style="font-family: arial; color: black;" href="#">Go to link</a></h5>
 </div>
 </div>
 <!--
@@ -52,13 +53,15 @@
   </table>
 </div>
 -->
+
 <div id="About" class="about">
   <div class="info">
   <div class="pic"><img src="image.png" height="170px" width="159px"></div>
-  <div id="text"><p><b>I'm <em><strong>Ken Bryan Dipa</strong></em>, a self thought future developer devoted to building quality and user friendly websites.</b></p></div>
+  <div class="text"><p><b>I'm <em><strong>Ken Bryan Dipa</strong></em>, a self thought future developer devoted to building quality and user friendly websites.</b></p></div>
   </div>  
 </div>
-<div id="Contact">
+
+<<div id="Contact">
  <div class="send">
   <h2 style="text-align: center;">Contact Owner</h2>
   <form action="" method="post">
@@ -68,10 +71,14 @@
 </form>
 </div>
 </div>
- <div id="foot" class="footer">
+
+ <div id="foot">
+  <div class="icon"><a style="float: left;" href="#"><img src="fb.png" align="top" width="14" height="14"><b>Fabecook</b></a><a style="float: right;" href="#"><img src="github.png" align="top" width="14" height="14"><b>Github</b></a></div>
    <h5>Allrights reserved 2021.</h5>
  </div>
+
 <script type="text/javascript">
+
     document.getElementById("night").addEventListener("click", function(){
     document.getElementById('Wc').style.color="white";
     document.getElementById('Wc').style.borderBottomColor="white";
@@ -81,12 +88,12 @@
     //document.getElementById('Visitor').style.color="white";
     //document.getElementById('Visitor').style.borderBottomColor="white";
     document.getElementById('Contact').style.borderBottomColor="white";
-    document.getElementById('text').style.color="white";
     document.getElementById('About').style.borderBottomColor="white";
     document.getElementById('nav').style.backgroundColor="#282828";
     document.getElementById('foot').style.backgroundColor="#282828";
     document.body.style.backgroundColor="black";
   })
+
 </script>
 </body>
 </html>
