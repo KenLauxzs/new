@@ -21,21 +21,21 @@
 </div>
 
 <div id="Project">
-  <h1>Projects:</h1><br>
+  <h2>Projects:</h2>
   <div class="projectName">
     <h2 id="namep">#1</h2>
  <div class="login" id="Form"> 
 <h3>Login</h3>
-<form onsubmit="" autocomplete="off" name="form"> 
+<form onsubmit="#" autocomplete="off" name="form"> 
  <label>Username</label>
- <input type="text" name="name" maxlength="20" required> 
+ <input type="text" name="name" minlength="8" maxlength="20" required> 
 <label>Password</label>
-<input type="password" name="password" maxlength="6" required>
-<label style="color: white;">Remember me:</label><input type="checkbox"><br>
+<input type="password" name="password" minlength="8" maxlength="20" required>
+<div style="padding: 7px 0 7px 0; display: flex;"><label style="color: white;" >Remember me:</label><input type="checkbox"></div>
 <input type="submit" value="Login">
   </form>
 </div>
-<h5><a style="font-family: arial; color: black;" href="#">Go to link</a></h5>
+<div class="link"><a href="#">Go to link</a></div>
 </div>
 </div>
 <!--
@@ -63,11 +63,11 @@
 
 <<div id="Contact">
  <div class="send">
-  <h2 style="text-align: center;">Contact Owner</h2>
-  <form action="" method="post">
-    <span><img src="email.png" width="25" height="21" align="top" style="padding: 0 5px 0 0px; margin-left: 15px;"></span><input type="email" placeholder="@..." name="name"><br><br>
-    <span style="margin-left: 45px;"></span><textarea placeholder="message..." rows="5" cols="30" maxlength="70" style=" resize: vertical;"></textarea><br>
-    <input type="submit" value="Send" style="margin-left: 45px;">
+  <h3 style="text-align: center; font-size: 15px;">Contact Owner</h3>
+  <form action="" method="">
+    <div style="display: flex; margin: 0 0 4% 0;"><span style="margin-left: 20px; padding: 0 4px 0 0;"><img src="email.png" width="22" height="18" align="left" ></span><input style="font-size: 11px;" type="email" placeholder="@..." name="name"></div>
+    <span style="margin-left: 45px;"></span><textarea wrap="10" placeholder="message..." rows="5" cols="30" maxlength="70" style="width: 70%; font-size: 11px;"></textarea><br>
+    <input type="submit" value="Send" style="margin-left: 45px; font-size: 11px;">
 </form>
 </div>
 </div>
